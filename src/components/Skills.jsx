@@ -81,12 +81,10 @@ const Skills = () => {
                 What I Do
               </p>
               <h2 className="text-4xl md:text-5xl font-bold text-white">
-                A blend of design & development craft
+              Building scalable full-stack web applications
               </h2>
               <p className="text-gray-400 max-w-3xl mx-auto lg:mx-0">
-                Passionate about crafting immersive experiences with modern
-                tools. I mix clean UI, smooth motion, and solid engineering to
-                ship interfaces that feel alive and performant.
+              I create responsive user interfaces and powerful backend systems using modern JavaScript technologies and the MERN stack.
               </p>
             </div>
 
