@@ -10,6 +10,7 @@ A modern, responsive portfolio website built with React, Tailwind CSS, and Frame
 - 🎯 Component-based architecture
 - 🚀 Fast and optimized with Vite
 - 💫 Interactive hover effects and transitions
+- 📧 Functional contact form with email integration
 
 ## Tech Stack
 
@@ -28,12 +29,27 @@ A modern, responsive portfolio website built with React, Tailwind CSS, and Frame
 npm install
 ```
 
-2. Start the development server:
+2. Set up EmailJS for contact form (optional but recommended):
+   - Sign up for a free account at [EmailJS](https://www.emailjs.com/)
+   - Create an email service (Gmail, Outlook, etc.)
+   - Create an email template with these variables:
+     - `{{from_name}}` - Sender's name
+     - `{{from_email}}` - Sender's email
+     - `{{message}}` - Message content
+   - Get your Public Key from Account > API Keys
+   - Create a `.env` file in the root directory:
+     ```env
+     VITE_EMAILJS_SERVICE_ID=your_service_id_here
+     VITE_EMAILJS_TEMPLATE_ID=your_template_id_here
+     VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
+     ```
+
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-3. Open your browser and navigate to `http://localhost:5173`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ### Build for Production
 

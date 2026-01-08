@@ -12,7 +12,7 @@ const Projects = () => {
       category: 'Health And Fitness',
       image: '/images/healthcare.png',
       description: 'Allow patient to analyze symptoms and direct video consultation with doctors',
-      link:"https://healthcare-advisor-frontend.vercel.app/"
+      link:"https://healthcare-advisor-frontend-updated.vercel.app/"
     },
     {
       title: 'Hotel Booking Website',

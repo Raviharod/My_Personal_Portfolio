@@ -124,7 +124,7 @@ const About = () => {
                 whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(0, 212, 255, 0.5)" }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all"
-                href="https://drive.google.com/uc?export=download&id=1jcBBoLG-HeeHBKubVxMJMzU8OkI4ZUdo"
+                href="https://drive.google.com/uc?export=download&id=1eVoI8LX6228gOhKk0dXiAszaidTqJe0f"
               >
                 Download CV
               </motion.a>
